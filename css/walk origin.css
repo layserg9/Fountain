@@ -1,0 +1,96 @@
+
+.intro {
+   padding: 80px 0 50px 0;  
+}
+.intro__body {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.header-block__subtitle._description {
+	font-size: 18px;
+   padding-top: 10px;
+	}
+.header-block__title._description {
+      font-size: 24px;
+   }
+.intro__item{
+min-width: 300px;
+max-width: 100% ;
+}
+
+@media (max-width:895px) {
+   .intro__item{
+      min-width: 250px;
+      }
+   .slick-slider.other{
+padding: 0 30px;
+      }
+}
+@media (max-width:768px) {
+   .intro__item{
+      min-width: 200px;
+      }
+}
+@media (max-width: 650px){
+   .intro__image {
+      display: none;
+   }
+   .intro__item{
+      min-width: auto;
+      max-width: 100% ;
+      }
+}
+.intro__image img{
+max-width: 100%;
+}
+.intro__textUp {
+   padding: 0 0 20px 0;
+
+}
+.intro__text h2{
+   font-size: 18px;
+   color: #252B42;
+   line-height: 150%;
+   padding: 5px 0;
+   text-align: center;
+}
+.slider__item {
+   font-size: 18px;
+   color: #252B42;
+   line-height: 150%;
+}
+.slider__item span{
+   font-weight: bold;
+}
+/*================Слайдер с фонтанами============================*/
+.page_whoweare._city{
+padding: 80px 0 0 0;
+}
+.slider__item div:not(:last-child){
+   padding: 0 0 5px 0;
+}
+/* .slider__image img{
+   height: 300px; 
+   width: 100%;
+   
+} */
+.slider__title {
+   font-weight: bold;
+}
+.slider__price {
+   font-weight: lighter;
+}
+.slider__description {
+}
+
+/* .slider__item{
+   padding: 0 5px; 
+   }
+   
+.slider__image img{
+   max-width: 100%;
+   height: 300px;
+   object-position: center;
+   object-fit: cover;
+} */
